@@ -14,6 +14,7 @@ export default function Home() {
             key={article.id}
             date={new Date(article.publishedDate).toDateString()}
             description={article.blurb}
+            id={article.id}
             imageAlt={article.image.alt}
             imageSrc={article.image.url}
             title={article.title}

@@ -3,3 +3,9 @@
   max-width: 1080px;
   padding: 25px;
 }
+
+.article{
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 25px;
+}

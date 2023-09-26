@@ -1,9 +1,10 @@
 "use client";
 
 import data from "../data";
+import Link from 'next/link';
 import styles from "./articleCard.module.css";
 
-const ArticleCard = ({ date, description, imageAlt, imageSrc, title }) => { //arrow function, cleaner
+const ArticleCard = ({ date, description, id, imageAlt, imageSrc, text, title }) => { //arrow function, cleaner
     return (
         <div className={styles.articleCard}>
             <div className={styles.articleCardImage}>
@@ -14,7 +15,10 @@ const ArticleCard = ({ date, description, imageAlt, imageSrc, title }) => { //ar
                 <h2>{title}</h2>
                 <p>{date}</p>
                 <p>{description}</p>
-            </div>
+                <p>
+                    <Link href={`article/${id}`}>Read More</Link>
+                </p>
+           </div>
         </div>
     );
 };
