@@ -1,0 +1,28 @@
+.articleSection {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+.articleHeader {
+    background-color: lightblue;
+    padding: 40px 0 20px 0;
+}
+
+.articleHeader h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.articleHeaderBlurb {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.articleBody {
+    padding: 40px 0;
+}
+
+/* .articleBody p {
+    font-size: 18px;
+} */
+
