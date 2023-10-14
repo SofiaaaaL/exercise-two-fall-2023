@@ -1,11 +1,13 @@
 .articleSection {
     margin: 0 auto;
     max-width: 640px;
+    /* font-size: 60px; */
 }
 
 .articleHeader {
     background-color: lightblue;
     padding: 40px 0 20px 0;
+    /* background-blend-mode: darken; */
 }
 
 .articleHeader h1 {
@@ -22,7 +24,10 @@
     padding: 40px 0;
 }
 
-/* .articleBody p {
+.articleBody p {
     font-size: 18px;
-} */
+}
 
+.articleContent {
+    margin-bottom: 30px;
+}

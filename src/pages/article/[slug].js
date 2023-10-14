@@ -33,13 +33,13 @@ export default function Article() {
                     {articleData.articleText.map((textChunk) => {
                         switch(textChunk.type){
                             case 'p':
-                                return <p>{textChunk.data}</p>
+                                return <p className={styles.articleContent}>{textChunk.data}</p>
                             case 'h2':
-                                return <h2>{textChunk.data}</h2>
+                                return <h2 className={styles.articleContent}>{textChunk.data}</h2>
                             case 'h3':
-                                return <h3>{textChunk.data}</h3>
+                                return <h3 className={styles.articleContent}>{textChunk.data}</h3>
                             default:
-                                return <p>{textChunk.data}</p>
+                                return <p className={styles.articleContent}>{textChunk.data}</p>
                         }
                     })}
 
