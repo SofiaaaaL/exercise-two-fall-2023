@@ -1,6 +1,6 @@
 
 .articleCard {
-    border: 1px solid black;
+    border: 2px solid black;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -12,13 +12,10 @@
 }
 
 .articleCardImage {
-    /* flex-basis: 25%;
-    max-height: 100%;
-    max-width: 200px; */
     display: flex;
     height: 100%;
     margin: auto;
-    max-width: 350px;
+    max-width: 400px;
 }
 
 .articleCardImage img{
@@ -27,7 +24,5 @@
 }
 
 .articleCardContent {
-    /* flex-direction: column;
-    flex-basis: 70%; */
     flex-shrink: 0;
 }

@@ -1,11 +1,9 @@
-import Data from '../app/components/data'; //bcs i have export default in the data.js file, so i can name this whatever i want
+import Data from '../app/components/data'; 
 import ArticleCard from '../app/components/ArticleCard';
 import styles from "../app/page.module.css";
 
 export default function Home() {
-  const projectName = 'Exercise Two'; //everytime you use a {} you re inserting a js value
-
-  //console.log(Data); //get rid of console.log before submit project
+  const projectName = 'Exercise Two'; 
   return (
     <main className={styles.page}>
         <h1>{projectName}</h1>
@@ -23,9 +21,3 @@ export default function Home() {
     </main>
   )
 }
-
-
-{/* <ArticleCard 
-        date="a date"
-        title="Cool Title" 
-        description="Cool description"/> */}

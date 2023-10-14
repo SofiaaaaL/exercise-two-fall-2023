@@ -26,7 +26,7 @@ export default [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://plus.unsplash.com/premium_photo-1674048381806-814bb2126f73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2742&q=80",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Sep 04 2019 17:04:38 GMT-0400"
@@ -58,7 +58,7 @@ export default [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://img.freepik.com/premium-photo/water-swimming-pool-background-with-high-resolution-wave-abstract-rippled-water-texture_265223-75124.jpg",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Sep 05 2019 10:04:38 GMT-0400"
@@ -90,7 +90,7 @@ export default [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701376172.jpg",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Sep 06 2019 18:04:38 GMT-0400"
@@ -122,7 +122,7 @@ export default [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Aug 08 2019 12:04:38 GMT-0400"
@@ -154,7 +154,7 @@ export default [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_640.jpg",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Aug 10 2019 12:04:38 GMT-0400"
@@ -194,7 +194,7 @@ export default [
         }
       ],
       "image": {
-        "url": "https://via.placeholder.com/2000x1200",
+        "url": "https://marketplace.canva.com/EAFKWjY7ba8/1/0/800w/canva-pink-abstract-watercolor-zoom-virtual-background-WLDltxop-po.jpg",
         "alt": "A placeholder image"
       },
       "publishedDate": "Wed Aug 22 2019 17:04:38 GMT-0400"

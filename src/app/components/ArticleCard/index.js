@@ -4,7 +4,7 @@ import data from "../data";
 import Link from 'next/link';
 import styles from "./articleCard.module.css";
 
-const ArticleCard = ({ date, description, id, imageAlt, imageSrc, text, title }) => { //arrow function, cleaner
+const ArticleCard = ({ date, description, id, imageAlt, imageSrc, text, title }) => {
     return (
         <div className={styles.articleCard}>
             <div className={styles.articleCardImage}>
